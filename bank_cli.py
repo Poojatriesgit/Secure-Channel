@@ -22,7 +22,7 @@ import base64
 import sqlite3
 
 # Storage configuration (same as customer side)
-STORAGE_PATH = r"C:\Users\pooja\OneDrive\Desktop\HSBC\hybrid-banking-hackathon\data"
+STORAGE_PATH = r"your\data"
 DATABASE_PATH = os.path.join(STORAGE_PATH, "banking_system.db")
 MESSAGES_PATH = os.path.join(STORAGE_PATH, "user_messages")
 BANK_RESPONSES_PATH = os.path.join(STORAGE_PATH, "bank_responses")
@@ -893,3 +893,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
